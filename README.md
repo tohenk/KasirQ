@@ -1,0 +1,2 @@
+# KasirQ
+Demo aplikasi KasirQ
