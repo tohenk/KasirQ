@@ -1,0 +1,89 @@
+[
+	{
+		"id": 0,
+		"name": "Generic",
+		"codes": {
+			"formFeed": "0b"
+		}
+	},
+	{
+		"id": 1,
+		"name": "Epson",
+		"parent": 0,
+		"codes": {
+			"reset": "1b40",
+			"boldOn": "1b45",
+			"boldOff": "1b46",
+			"italicOn": "1b34",
+			"italicOff": "1b35",
+			"underlineOn": "1b2d01",
+			"underlineOff": "1b2d00",
+			"superscriptOn": "1b5301",
+			"superscriptOff": "1b54",
+			"subscriptOn": "1b5300",
+			"subscriptOff": "1b54",
+			"condensedOn": "0f",
+			"condensedOff": "12",
+			"wideOn": "1b5701",
+			"wideOff": "1b5700",
+			"cpi12On": "1b4d",
+			"cpi12Off": "1b50",
+			"cpi15On": "1b67",
+			"cpi15Off": "1b50"
+		}
+	},
+	{
+		"id": 2,
+		"name": "HP",
+		"parent": 0,
+		"codes": {
+			"reset": "1b45",
+			"portrait": "1b266c304f",
+			"landscape": "1b266c314f",
+			"boldOn": "1b28733342",
+			"boldOff": "1b28733042",
+			"italicOn": "1b28733153",
+			"italicOff": "1b28733053",
+			"underlineOn": "1b26643144",
+			"underlineOff": "1b266440",
+			"superscriptOn": "1b26612d2e3552",
+			"superscriptOff": "1b26612b2e3552",
+			"subscriptOn": "1b26612b2e3552",
+			"subscriptOff": "1b26612d2e3552",
+			"condensedOn": "1b2873313648",
+			"condensedOff": "1b2873313048",
+			"wideOn": "1b28733548",
+			"wideOff": "1b2873313048",
+			"cpi12On": "1b266b313048",
+			"cpi12Off": "1b266b313248",
+			"cpi15On": "",
+			"cpi15Off": ""
+		}
+	},
+	{
+		"id": 3,
+		"name": "IBM",
+		"parent": 1,
+		"codes": {
+			"reset": "",
+			"cpi12On": "1b3a",
+			"cpi12Off": "12",
+			"cpi15On": "1b67",
+			"cpi15Off": "12"
+		}
+	},
+	{
+		"id": 4,
+		"name": "ESC/POS",
+		"parent": 0,
+		"codes": {
+			"reset": "1b40",
+			"underlineOn": "1b2d01",
+			"underlineOff": "1b2d00",
+			"boldOn": "1b4501",
+			"boldOff": "1b4500",
+			"fontA": "1b4d00",
+			"fontB": "1b4d01"
+		}
+	}
+]
